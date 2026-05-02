@@ -21,7 +21,7 @@ layout: hextra-home
 </div>
 
 <div class="hx:mb-6">
-{{< hextra/hero-button text="View Record Attempt" link="https://smallest-enigma.org" >}}
+{{< hextra/hero-button text="About the Author" link="https://github.com/denismaggior8" >}}
 </div>
 
 <div class="hx:mt-16 hx:mb-8">
@@ -30,22 +30,22 @@ layout: hextra-home
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="enigma-python"
+    title="The enigmapython Library"
     subtitle="The core Enigma machine emulator library in Python"
     link="https://github.com/denismaggior8/enigma-python"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(16,185,129,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="micropython-enigma-python"
+    title="enigmapython for MicroPython"
     subtitle="The **enigmapython** distribution repo for MicroPython"
     link="https://github.com/denismaggior8/micropython-enigma-python"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[200px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="enigma-tui"
-    subtitle="Terminal User Interface for Enigma"
+    title="Enigma TUI"
+    subtitle="Terminal User Interface for Enigma machines"
     link="https://github.com/denismaggior8/enigma-tui"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
@@ -60,8 +60,8 @@ layout: hextra-home
     style="background: radial-gradient(ellipse at 50% 80%,rgba(56,189,248,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="enigma-python-mcp"
-    subtitle="Enigma MCP Server for LLMs"
+    title="enigmapython MCP Server"
+    subtitle="Model Context Protocol server to bring Enigma capabilities to LLMs"
     link="https://github.com/denismaggior8/enigma-python-mcp"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
