@@ -28,9 +28,33 @@ layout: hextra-home
   <h2 class="hx:text-center hx:text-3xl hx:font-bold">Projects</h2>
 </div>
 
-{{< cards >}}
-  {{< card link="https://github.com/denismaggior8/enigma-python-mcp" title="enigma-python-mcp" subtitle="Enigma MCP Server for LLMs" >}}
-  {{< card link="https://github.com/denismaggior8/micropython-enigma-python" title="micropython-enigma-python" subtitle="The **enigmapython** distribution repo for MicroPython" >}}
-  {{< card link="https://github.com/denismaggior8/enigma-tui" title="enigma-tui" subtitle="Terminal User Interface for Enigma" >}}
-  {{< card link="https://github.com/denismaggior8/enigma-codebook-generator" title="enigma-codebook-generator" subtitle="Generate Sample Enigma Codebooks" >}}
-{{< /cards >}}
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="enigma-python-mcp"
+    subtitle="Enigma MCP Server for LLMs"
+    link="https://github.com/denismaggior8/enigma-python-mcp"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="micropython-enigma-python"
+    subtitle="The **enigmapython** distribution repo for MicroPython"
+    link="https://github.com/denismaggior8/micropython-enigma-python"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[200px]"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="enigma-tui"
+    subtitle="Terminal User Interface for Enigma"
+    link="https://github.com/denismaggior8/enigma-tui"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="enigma-codebook-generator"
+    subtitle="Generate Sample Enigma Codebooks"
+    link="https://github.com/denismaggior8/enigma-codebook-generator"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(56,189,248,0.15),hsla(0,0%,100%,0));"
+  >}}
+{{< /hextra/feature-grid >}}
