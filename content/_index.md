@@ -13,7 +13,7 @@ layout: hextra-home
   The **enigmapython** <br class="hx:sm:block hx:hidden" /> Ecosystem
 {{< /hextra/hero-headline >}}
 </div>
-
+ 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
   Central index for enigmapython library, <br class="hx:sm:block hx:hidden" /> and related projects.
