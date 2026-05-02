@@ -51,10 +51,12 @@ layout: hextra-home
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="enigma-codebook-generator"
+    title="Enigma Codebooks Generator"
     subtitle="Sample Enigma Codebooks Generator"
     link="https://github.com/denismaggior8/enigma-codebook-generator"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
+    image="img/enigma-codebook-generator.png"
+    imageClass="hx:absolute hx:max-w-none hx:top-[40%] hx:left-[36px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80 hx:rounded-xl hx:shadow-lg"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(56,189,248,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -63,5 +65,12 @@ layout: hextra-home
     link="https://github.com/denismaggior8/enigma-python-mcp"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Smallest Enigma Emulator"
+    subtitle="Guinness World Record attempt for the smallest Enigma M4"
+    link="https://smallest-enigma.org"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(249,115,22,0.15),hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}
