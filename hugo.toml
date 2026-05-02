@@ -1,0 +1,27 @@
+baseURL = 'https://denismaggior8.github.io/enigma-python-index/'
+languageCode = 'en-us'
+title = 'enigmapython Index'
+theme = ['github.com/imfing/hextra']
+
+[author]
+  name = "Denis Maggiorotto"
+  email = "denis.maggiorotto@gmail.com"
+
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Central index for **enigmapython** and related projects."
+  
+  [params.navbar]
+    displayTitle = true
+    
+  [params.footer]
+    enable = true
+    displayCopyright = true
