@@ -30,11 +30,11 @@ layout: hextra-home
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="enigma-python-mcp"
-    subtitle="Enigma MCP Server for LLMs"
-    link="https://github.com/denismaggior8/enigma-python-mcp"
+    title="enigma-python"
+    subtitle="The core Enigma machine emulator library in Python"
+    link="https://github.com/denismaggior8/enigma-python"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(16,185,129,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
     title="micropython-enigma-python"
@@ -52,9 +52,16 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="enigma-codebook-generator"
-    subtitle="Generate Sample Enigma Codebooks"
+    subtitle="Sample Enigma Codebooks Generator"
     link="https://github.com/denismaggior8/enigma-codebook-generator"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(56,189,248,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="enigma-python-mcp"
+    subtitle="Enigma MCP Server for LLMs"
+    link="https://github.com/denismaggior8/enigma-python-mcp"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}
