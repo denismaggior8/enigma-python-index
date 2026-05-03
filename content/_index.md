@@ -8,35 +8,43 @@ layout: hextra-home
   <span>Open Source Software</span>
 {{< /hextra/hero-badge >}}
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem; margin: 3rem 0; width: 100%;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem; margin-top: 3rem; width: 100%;">
   
 <div style="flex: 1; text-align: left; min-width: 300px;">
 
 {{< hextra/hero-headline >}}
-  The **enigmapython** <br class="hx:sm:block hx:hidden" /> Ecosystem
+  The **enigmapython** Ecosystem <br class="hx:sm:block hx:hidden" /> 
 {{< /hextra/hero-headline >}}
 
+<br class="hx:sm:block hx:hidden" />
+
 {{< hextra/hero-subtitle >}}
-  Central index for enigmapython library, <br class="hx:sm:block hx:hidden" /> and related projects.
+  Central index for enigmapython library and related projects.
 {{< /hextra/hero-subtitle >}}
 
+
 <div class="hx:mt-4 hx:mb-8 hx:text-gray-600 hx:dark:text-gray-400 hx:text-lg" style="text-align: inherit;">
-  <p>This site aggregates my open-source projects, hardware emulators, and historical studies dedicated to the Enigma machine and the cryptography used during WWII.</p>
+  <p class="hx:mb-4">This site serves as the central hub for my open-source ecosystem dedicated to the Enigma machine and WWII cryptography. It aggregates everything from the core Python simulation libraries and specialized MicroPython firmware (including Guinness World Record attempts), to interactive terminal interfaces and historical codebook generators.</p>
+  <p>Whether you are researching classical cryptography, looking to integrate Enigma logic into modern AI applications, or building your own replica hardware, you will find all the related tools and documentation here.</p>
 </div>
 
 <div class="hx:mb-6">
-{{< hextra/hero-button text="About the Author" link="https://github.com/denismaggior8" >}}
+{{< hextra/hero-button text="About the Author →" link="https://github.com/denismaggior8" >}}
 </div>
 
 </div>
 
 <div style="flex-shrink: 0; text-align: right;">
-<img src="img/enigmapython-logo.jpg" alt="enigmapython logo" class="hx:shadow-xl hx:dark:opacity-90" style="width: 360px; max-width: 100%; height: auto; border-radius: 20px; border: 2px solid rgba(156, 163, 175, 0.3);" />
+<img src="img/enigmapython-logo.png" alt="enigmapython logo" class="hx:shadow-xl hx:dark:opacity-90" style="width: 360px; max-width: 100%; height: auto; border-radius: 20px; border: 2px solid rgba(156, 163, 175, 0.3);" />
 </div>
 
 </div>
 
-<div class="hx:mt-16 hx:mb-8">
+<div class="hx:w-full">
+  <img src="img/inforgraphic.jpg" alt="Enigmapython Ecosystem Infographic" class="hx:w-full hx:h-auto hx:rounded-3xl hx:shadow-2xl hx:dark:opacity-90" style="border: 1px solid rgba(156, 163, 175, 0.2);" />
+</div>
+
+<div class="hx:mt-8 hx:mb-8">
   <h2 class="hx:text-center hx:text-3xl hx:font-bold">Projects</h2>
 </div>
 
