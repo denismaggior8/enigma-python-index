@@ -1,6 +1,7 @@
 baseURL = 'https://denismaggior8.github.io/enigma-python-index/'
 languageCode = 'en-us'
 title = 'enigmapython Index'
+copyright = '2026 Denis Maggiorotto'
 theme = ['github.com/imfing/hextra']
 
 [author]
@@ -26,5 +27,46 @@ theme = ['github.com/imfing/hextra']
       path = "img/logo.png"
 
   [params.footer]
-    enable = true
-    displayCopyright = true
+    enable = false
+
+[menu]
+  [[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    weight = 1
+
+  [[menu.main]]
+    name = "The enigmapython Library"
+    parent = "projects"
+    url = "https://github.com/denismaggior8/enigma-python"
+    weight = 1
+
+  [[menu.main]]
+    name = "MicroPython Port"
+    parent = "projects"
+    url = "https://github.com/denismaggior8/micropython-enigma-python"
+    weight = 2
+
+  [[menu.main]]
+    name = "Enigma TUI"
+    parent = "projects"
+    url = "https://github.com/denismaggior8/enigma-tui"
+    weight = 3
+
+  [[menu.main]]
+    name = "Codebooks Generator"
+    parent = "projects"
+    url = "https://github.com/denismaggior8/enigma-codebook-generator"
+    weight = 4
+
+  [[menu.main]]
+    name = "MCP Server"
+    parent = "projects"
+    url = "https://github.com/denismaggior8/enigma-python-mcp"
+    weight = 5
+
+  [[menu.main]]
+    name = "Smallest Enigma Emulator"
+    parent = "projects"
+    url = "https://smallest-enigma.org"
+    weight = 6

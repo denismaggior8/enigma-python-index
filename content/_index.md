@@ -24,7 +24,7 @@ layout: hextra-home
 
 
 <div class="hx:mt-4 hx:mb-8 hx:text-gray-600 hx:dark:text-gray-400 hx:text-lg" style="text-align: inherit;">
-  <p class="hx:mb-4">This site serves as the central hub for my open-source ecosystem dedicated to the Enigma machine and WWII cryptography. It aggregates everything from the core Python simulation libraries and specialized MicroPython firmware (including Guinness World Record attempts), to interactive terminal interfaces and historical codebook generators.</p>
+  <p class="hx:mb-4">This site serves as the central hub for an open-source ecosystem dedicated to the Enigma machine and WWII cryptography. It aggregates everything from the core Python simulation libraries and specialized MicroPython firmware, to an interactive terminal interface and historical codebook generator.</p>
   <p>Whether you are researching classical cryptography, looking to integrate Enigma logic into modern AI applications, or building your own replica hardware, you will find all the related tools and documentation here.</p>
 </div>
 
@@ -51,7 +51,7 @@ layout: hextra-home
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="The enigmapython Library"
-    subtitle="The core Enigma machine emulator library in Python"
+    subtitle="A highly accurate, historically faithful Python library for simulating Enigma I, M3, M4 and more machine types."
     link="https://github.com/denismaggior8/enigma-python"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     image="/img/enigmapython.png"
@@ -60,7 +60,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="enigmapython for MicroPython"
-    subtitle="The **enigmapython** distribution repo for MicroPython"
+    subtitle="A fully optimized, memory-efficient port of enigmapython designed specifically for MicroPython hardware."
     link="https://github.com/denismaggior8/micropython-enigma-python"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[200px]"
     image="/img/MicroPython_logo.png"
@@ -69,7 +69,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Enigma TUI"
-    subtitle="Terminal User Interface for Enigma machines"
+    subtitle="An immersive, interactive Terminal User Interface for operating a virtual Enigma from the command line."
     link="https://github.com/denismaggior8/enigma-tui"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     image="img/tui.png"
@@ -78,7 +78,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Enigma Codebooks Generator"
-    subtitle="Sample Enigma Codebooks Generator"
+    subtitle="A standalone utility for generating historically authentic daily codebooks and key sheets."
     link="https://github.com/denismaggior8/enigma-codebook-generator"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     image="/img/enigma-codebook-generator.png"
@@ -87,7 +87,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="enigmapython MCP Server"
-    subtitle="Model Context Protocol server to bring Enigma capabilities to LLMs"
+    subtitle="A secure MCP server that bridges the gap between classic WWII cryptography and modern AI assistants."
     link="https://github.com/denismaggior8/enigma-python-mcp"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     image="/img/mcp.png"
@@ -96,7 +96,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Smallest Enigma Emulator"
-    subtitle="Guinness World Record attempt for the smallest Enigma M4"
+    subtitle="A documented engineering effort to build the world's smallest computationally autonomous Enigma M4."
     link="https://smallest-enigma.org"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     image="/img/gwr.png"
@@ -104,3 +104,19 @@ layout: hextra-home
     style="background: radial-gradient(ellipse at 50% 80%,rgba(249,115,22,0.15),hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}
+
+<br class="hx:sm:block hx:hidden" />
+<br class="hx:sm:block hx:hidden" />
+
+
+<div class="hx:mt-24 hx:mb-4 hx:w-full hx:border-t hx:border-gray-200 hx:dark:border-neutral-800 hx:pt-8 hx:flex hx:flex-col hx:items-center">
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 3rem;">
+    <p class="hx:text-gray-600 hx:dark:text-gray-300 hx:text-base hx:font-medium hx:text-center hx:md:text-right" style="margin: 0;">If you found any of the projects above useful/funny/educational, please consider supporting the development:</p>
+    <a href="https://www.buymeacoffee.com/denismaggior8" target="_blank" rel="noopener noreferrer" class="hx:transition-transform hx:hover:scale-105" style="display: block;">
+      <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important; width: auto !important;" class="hx:shadow-md hx:rounded-xl" />
+    </a>
+  </div>
+  <div class="hx:text-sm hx:text-gray-500 hx:dark:text-gray-400">
+    © 2026 Denis Maggiorotto
+  </div>
+</div>
