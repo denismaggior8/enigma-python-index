@@ -21,13 +21,18 @@ theme = ['github.com/imfing/hextra']
   description = "Central index for **enigmapython** and related projects."
   favicon = "/favicon.ico"
 
+  [params.theme]
+    default = "light"
+
   [params.navbar]
     displayTitle = true
     [params.navbar.logo]
       path = "img/logo.png"
 
   [params.footer]
-    enable = false
+    enable = true
+    displayCopyright = false
+    displayPoweredBy = false
 
 [menu]
   [[menu.main]]
