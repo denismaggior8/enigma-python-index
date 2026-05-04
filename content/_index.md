@@ -94,15 +94,6 @@ layout: hextra-home
     imageClass="hx:max-w-none hx:top-[40%] hx:left-[36px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80 hx:rounded-xl hx:shadow-lg hx:z-10"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
-  {{< hextra/feature-card
-    title="Smallest Enigma Emulator"
-    subtitle="A documented engineering effort to build the world's smallest computationally autonomous Enigma M4."
-    link="https://smallest-enigma.org"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
-    image="/img/gwr.png"
-    imageClass="hx:max-w-none hx:top-[40%] hx:left-[36px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80 hx:rounded-xl hx:shadow-lg hx:z-10"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(249,115,22,0.15),hsla(0,0%,100%,0));"
-  >}}
 {{< /hextra/feature-grid >}}
 
 <br class="hx:sm:block hx:hidden" />
