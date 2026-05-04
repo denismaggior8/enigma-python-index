@@ -87,7 +87,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="enigmapython MCP Server"
-    subtitle="A secure MCP server that bridges the gap between classic WWII cryptography and modern AI assistants."
+    subtitle="An MCP server that bridges the gap between classic WWII cryptography and modern AI assistants."
     link="https://github.com/denismaggior8/enigma-python-mcp"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[200px]"
     image="/img/mcp.png"
